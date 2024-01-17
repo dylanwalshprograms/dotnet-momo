@@ -1,0 +1,6 @@
+@MoMo.AdamApi_HostAddress = http://localhost:5037
+
+GET {{MoMo.AdamApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
