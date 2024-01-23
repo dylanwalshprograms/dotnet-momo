@@ -1,12 +1,12 @@
 ﻿services:
-  momo.adamapi:
-    image: momo.adamapi
-    build:
-      context: .
-      dockerfile: MoMo.AdamApi/Dockerfile
-
   momo.eveapi:
     image: momo.eveapi
     build:
       context: .
-      dockerfile: MoMo.EveApi/Dockerfile
+      dockerfile: Execution/MoMo.EveApi/Dockerfile
+
+  momo.adamapi:
+    image: momo.adamapi
+    build:
+      context: .
+      dockerfile: Execution/MoMo.AdamApi/Dockerfile
